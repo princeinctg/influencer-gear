@@ -1,0 +1,145 @@
+.body{
+    background-color: rgb(220, 220, 220);
+}
+
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+font-weight: 800;
+font-size: 45px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li{
+list-style: none;
+margin: 50px;
+}
+.nav li a{
+color: rgba(58, 58, 58, 1);
+    text-decoration:none;
+}
+
+/* root style */
+:root{
+
+    --font-size:24px; 
+    --font-bold:bold;
+    --font-size1:52px; 
+
+}
+
+.header{
+    font-size: var(--font-size);
+font-weight: var(--font-bold:bold);
+}
+
+.title{
+    font-size: var(--font-size1);
+}
+
+.primary-btn{
+    padding: 10px 24px;
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 41px;
+    color:white;
+    pointer-events: none;
+    border: none;
+}
+.btn{
+    position: relative;
+    top: 8px;
+}
+.banner{
+
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 100px;
+   
+   
+}
+    
+
+.banner-greting{
+    gap: 16px;
+    
+
+}
+
+.hi{
+
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+ height: 475px ;width: 475px;
+
+}
+
+
+.Journey{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    margin:  100px;
+    border-color: black solid 1px color ;
+}
+
+.p-color{
+ color: rgba(120, 120, 133, 1);
+}
+
+.box{
+border-radius: 5px;
+    width:329px;
+     height:476px;
+     box-shadow: 7px 7px 10px rgba(10, 5, 4, 0.10);
+     padding: 20px;
+     margin: 20px;
+     border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-items: center;
+    margin: 100px 400px;
+    
+}
+
+.second-btn{
+   border: none;
+   color: rgba(224, 44, 109, 0.87);
+   font-weight: bold;
+   position: absolute;
+   right: 300px;
+}
+.consequat{
+ text-align: right;
+    margin: 200px;
+}
+
+.go{
+    padding:  10px 24px;
+    border: none;
+   background-color: rgba(224, 44, 109, 1);
+   color: white;
+   margin: 20px;
+}
+
+
+.grid-cols{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    margin: 100px 300px;
+    padding: 100px 100px;
+
+}
